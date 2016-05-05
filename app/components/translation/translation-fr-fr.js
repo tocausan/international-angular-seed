@@ -12,7 +12,7 @@ angular.module('myApp.translation-fr-fr', [])
             Intro_part_1:   'Bienvenue sur Multinlingual Angular App.',
             Intro_part_2:   'Cette application est destinée à offrir un service international.',
 
-            About_part_1:   'Cette application est basée sur une architecture AngularJS utilisant "angular-route" pour le routing et "angular-translate" (Pascal Precht) pour la traduction. ' +
+            About_part_1:   'Cette application est basée sur l\'architecture d\'"angular-seed" et utilisant "angular-route" pour le routing et "angular-translate" (Pascal Precht) pour la traduction. ' +
             'Ces noms font références aux paquets "Bower".',
             About_part_2:   '"Foundation" est aussi utilisé afin de faciliter la rapide mise en place d\'une interface utilisateur agréable.',
         });

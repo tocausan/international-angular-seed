@@ -1,0 +1,50 @@
+<span class="small-12 medium-6 medium-offset-3 column">
+    <h2 class="text-center">{{'About' | translate}}</h2>
+    <hr/>
+    <p>{{'About_part_1' | translate}}</p>
+    <p>{{'About_part_2' | translate}}</p>
+
+    <h5>Directory layout</h5>
+    <xmp>
+    app/                    --> all of the source files for the application
+        assets/                 --> assets directory
+            font/                   --> fonts used
+                ...
+            style/                  --> stylesheets
+                font-face.css           --> font-faces stylesheet
+                style.css               --> default stylesheet
+        bower_components/           --> bower components
+            ...
+        components/                 --> angular components
+            controllers/                --> angular controllers
+                mainCtrl.js                 --> main controller
+                view1Ctrl.js                --> view 1 controller
+                view2Ctrl.js                --> view 2 controller
+            partials/                   --> angular views
+                view1.html                  --> view 1
+                view2.html                  --> view 2
+            route/                      --> angular route
+                route.js                    --> route config
+            test/                       --> angular tests
+                test1.js                    --> tests of the controller
+            translation/                --> angular translation
+                translation.js              --> translation preferences
+                translation-en-us.js        --> English translation
+                translation-fr-fr.js        --> French translation
+                translation-zh-chs.js       --> Mandarin translation
+            version/                    --> version related components
+                interpolate-filter.js       --> custom interpolation filter
+                interpolate-filter_exist.js --> interpolate filter tests
+                version.js                  --> version module declaration and basic "version" value service
+                version-directive.js        --> custom directive that returns the current app version
+                version-directive_test.js   --> version directive tests
+                version_test.js             --> "version" value service tests
+        app.js                      --> main application module
+        index.html                  --> app layout file (the main html template file of the app)
+        index-async.html            --> just like index.html, but loads js files asynchronously
+    e2e-tests/                  --> end-to-end tests
+        protractor.conf.js          --> Protractor config file
+        scenario.js                 --> end-to-end scenarios to be run by Protractor
+
+    </xmp>
+</span>
